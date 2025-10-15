@@ -1,0 +1,69 @@
+navbar navbar-expand-lg bg-body-tertiary{
+    position: fixed;
+}
+.d-block {
+    width: 2000px;
+    height: 715px;
+}
+.navbar-nav{
+    position: relative;
+    left: 1200px;
+}
+.navbar-brand{
+    position: relative;
+    left: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.banner {
+
+  width: 100%;
+  height: 200px;
+
+}
+
+.banner img {
+
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.overlay {
+
+
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+ justify-content: center;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.text h3 {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.text h1 {
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+
